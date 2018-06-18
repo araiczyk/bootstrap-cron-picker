@@ -251,7 +251,7 @@
         _buildDaysOfWeeks() {
             return $('<div>', {
                 class: 'cron-picker-dow',
-                html: ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'].map((item, index) => {
+                html: ['SUN','MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'].map((item, index) => {
                     return this._buildDayOfWeekButton(item, index + 1);
                 })
             })
